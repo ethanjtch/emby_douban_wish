@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # 配置信息
-server_url="http://{emby地址}:{端口号}/emby"    # emby-server域名和端口号
-api_key="填写你的emby api key"                  # emby-server上生成的API密钥
-uid="填写你的豆瓣user_id"                       # 豆瓣用户id
+server_url=http://142.171.224.10:8096/emby     # emby-server域名和端口号
+api_key=9a0e91d777c4403b81f5e9201ac2a61a       # emby-server上生成的API密钥
+uid=57139497                                   # 豆瓣用户id
 interval=60                                    # 防止请求太频繁被豆瓣ban了ip，设置请求间隔
 library_refresh_time=120                       # 触发媒体库刷新之后的等待时间
 movies_path=/home/emby/movies                  # 电影目录
